@@ -64,8 +64,8 @@
   texto = "arremangala arrepújala"
   t = texto.islower()  # True
   ```
-  ```
 - **isupper:** Verifica si todos los caracteres de la cadena están en mayúsculas.
   ```python
   texto = "¿QUÉ TU HARÍA SI FUERA PRESIDENTE DE LA REPÚBLICA DOMINICANA?" #FUTBOL EN PAZ
   t = texto.isupper()  # True
+  ```
