@@ -48,7 +48,7 @@
 - **_isspace_**(Es espacio): Verifica si la cadena está compuesta de solo espacios.
   ```python
   texto = "   "
-  resultado = texto.isspace()  # True
+  t = texto.isspace()  # True
 
 - **istitle:** Verifica si la cadena está en formato título (la primera letra de cada palabra es mayúscula).
   ```python
