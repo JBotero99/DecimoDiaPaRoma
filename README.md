@@ -1,12 +1,12 @@
 # Décimo Dia Pa roma
 
 ## Métodos de Strings en Python
-* **_endswith_**(Acaba con): Verifica si una cadena termina en una subcadena dada.
-```python
-texto = "Quiere Coco Channel"
-t = texto.endswith("Channel")  # True
-f = texto.endswith("Coco")  # False
-```
+- **_endswith_**(Acaba con): Verifica si una cadena termina en una subcadena dada.
+  ```python
+  texto = "Quiere Coco Channel"
+  t = texto.endswith("Channel")  # True
+  f = texto.endswith("Coco")  # False
+  ```
 
 - **_startswith_**(Empieza con): Verifica si una cadena empieza en una subcadena dada.
   ```python
@@ -52,15 +52,20 @@ f = texto.endswith("Coco")  # False
 
 - **istitle:** Verifica si la cadena está en formato título (la primera letra de cada palabra es mayúscula).
   ```python
-  texto = "Hola"
-  resultado = texto.istitle()  # True
+  texto = "Hola, Soy Homero Hincha Del Deportes Iquique"
+  t = texto.istitle()  # True
 
-- **islower:** Verifica si todos los caracteres de la cadena están en minúsculas. Devuelve `True` si es así, de lo contrario `False`.
   ```python
-  texto = "pablito te la compro"
-  resultado = texto.islower()  # True
+  texto = "Hola, soy Homero hincha del Deportes Iquique" #Hay dos palabras que no tienen formato de Título.
+  f = texto.istitle()  # False
 
-- **isupper:** Verifica si todos los caracteres de la cadena están en mayúsculas. Devuelve `True` si es así, de lo contrario `False`.
+- **islower:** Verifica si todos los caracteres de la cadena están en minúsculas.
   ```python
-  texto = "MINUTO 85 LA MALA PARA SANTAFE" #FUTBOL EN PAZ
-  resultado = texto.isupper()  # True
+  texto = "arremangala arrepújala"
+  t = texto.islower()  # True
+  ```
+  ```
+- **isupper:** Verifica si todos los caracteres de la cadena están en mayúsculas.
+  ```python
+  texto = "¿QUÉ TU HARÍA SI FUERA PRESIDENTE DE LA REPÚBLICA DOMINICANA?" #FUTBOL EN PAZ
+  t = texto.isupper()  # True
