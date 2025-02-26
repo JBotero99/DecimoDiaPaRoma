@@ -50,7 +50,7 @@
   texto = "   "
   t = texto.isspace()  # True
 
-- **istitle:** Verifica si la cadena está en formato título (la primera letra de cada palabra es mayúscula).
+- **istitle**(Es título) Verifica si la cadena está en formato título (la primera letra de cada palabra es mayúscula).
   ```python
   texto = "Hola, Soy Homero Hincha Del Deportes Iquique"
   t = texto.istitle()  # True
@@ -59,12 +59,12 @@
   texto = "Hola, soy Homero hincha del Deportes Iquique" #Hay dos palabras que no tienen formato de Título.
   f = texto.istitle()  # False
 
-- **islower:** Verifica si todos los caracteres de la cadena están en minúsculas.
+- **islower**(Es minúscula): Verifica si todos los caracteres de la cadena están en minúsculas.
   ```python
   texto = "arremangala arrepújala"
   t = texto.islower()  # True
   ```
-- **isupper:** Verifica si todos los caracteres de la cadena están en mayúsculas.
+- **isupper**(Es mayúscula): Verifica si todos los caracteres de la cadena están en mayúsculas.
   ```python
   texto = "¿QUÉ TU HARÍA SI FUERA PRESIDENTE DE LA REPÚBLICA DOMINICANA?" #FUTBOL EN PAZ
   t = texto.isupper()  # True
